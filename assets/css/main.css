@@ -2520,11 +2520,11 @@
 			}*/
 
 		table td {
-			padding: 0 0 0 0;
+			padding: 0 1em 0 0;
 		}
 
         table td:first-child {
-            padding: 0 0 1em 0;
+            padding: 0 2em 1em 0;
         }
 
 		table th {
