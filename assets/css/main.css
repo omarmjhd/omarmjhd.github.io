@@ -1824,6 +1824,11 @@
 		text-decoration: none;
 	}
 
+	a:hover > strong {
+		border-bottom-color: transparent !important;
+		color: #6bd4c8;
+	}
+
 		a:hover {
 			border-bottom-color: transparent !important;
 			color: #6bd4c8;
