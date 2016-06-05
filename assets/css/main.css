@@ -2349,9 +2349,9 @@
 		}
 
 	ul {
-		list-style: square;
+		/*list-style: square;*/
 		margin: 0 0 2em 0;
-		padding-left: 2em;
+		/*padding-left: 2em;*/
 	}
 
 		ul li {
