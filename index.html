@@ -10,24 +10,27 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
         <!-- Google Analytics -->
         <script>
-  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  		ga('create', 'UA-92293603-1', 'auto');
-  		ga('send', 'pageview');
+            ga('create', 'UA-92293603-1', 'auto');
+            ga('send', 'pageview');
 
-	</script>
+	    </script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/projects.js"></script>
+
 		
-	<meta property="og:title" content="Omar Mujahid">
-	<meta property="og:description" content="Developer. Music Enthusiast. Golfer.">
-	<meta property="og:image" content="http://omarmujahid.com/images/seo/facebook-profile.jpg">
-	<meta property="og:url" content="http://omarmujahid.com">
-	<meta name="twitter:title" content="Omar Mujahid">
-	<meta name="twitter:description" content="Developer. Music Enthusiast. Golfer.">
-	<meta name="twitter:image" content="http://omarmujahid.com/images/seo/twitter-profile.jpg">
-	<meta name="twitter:card" content="summary_large_image">
+        <meta property="og:title" content="Omar Mujahid">
+        <meta property="og:description" content="Developer. Music Enthusiast. Golfer.">
+        <meta property="og:image" content="http://omarmujahid.com/images/seo/facebook-profile.jpg">
+        <meta property="og:url" content="http://omarmujahid.com">
+        <meta name="twitter:title" content="Omar Mujahid">
+        <meta name="twitter:description" content="Developer. Music Enthusiast. Golfer.">
+        <meta name="twitter:image" content="http://omarmujahid.com/images/seo/twitter-profile.jpg">
+        <meta name="twitter:card" content="summary_large_image">
 	
 	</head>
 	<body>
@@ -149,36 +152,7 @@
 					<header class="major">
 						<h2>Recent Projects</h2>
 					</header>
-                    <div class="row 100%">
-                        <div class="4u 12u$(medium)">
-                            <span class="image fit"><img src="images/projects/greater-than.jpg" alt="" /></span>
-                            <h3>We're > HIV</h3>
-                            <p>Web application developed to create a social network for HIV positive young adults to
-                                connect with one another.</p>
-
-                            <ul class="actions">
-                                <li><a href="https://github.com/omarmjhd/greater-than" class="button">More</a></li>
-                            </ul>
-                        </div>
-                        <div class="4u 12u$(medium)">
-                            <span class="image fit"><img src="images/projects/codr.jpg" alt="" /></span>
-                            <h3>{codr}</h3>
-                            <p>An Tinder-like web app for programmers to find compatible
-                                programmers to work with based on GitHub accounts.</p>
-                            <ul class="actions">
-                                <li><a href="https://github.com/omarmjhd/codr" class="button">More</a></li>
-                            </ul>
-                        </div>
-                        <div class="4u$ 12u$(medium)">
-                            <span class="image fit"><img src="images/projects/archer.jpg" alt="" /></span>
-                            <h3>Archer</h3>
-                            <p>Android application that works in conjuction with a Myo armband to allow users to "shoot
-							arrows" at targets placed on Google Maps.</p>
-                            <ul class="actions">
-                                <li><a href="https://github.com/omarmjhd/archer" class="button">More</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    <div class="row 100%" id="projects"></div>
 				</div>
 			</section>
 
