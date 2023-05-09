@@ -1,4 +1,4 @@
 -omarmjhd.github.io
 -==================
 -
--Personal Website made using WebStorm, HTML5 UP “Photon” Template, and GithubPages
+-Personal Website made using WebStorm, HTML5 UP “Photon” Template, and Github Pages
