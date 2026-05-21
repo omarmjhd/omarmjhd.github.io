@@ -3003,121 +3003,75 @@
 
 /* Footer */
 
-	#footer {
-		padding: 2em 0 2em 0 ;
-		background-color: #4686a0;
-		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/footer_lodyas.png");
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
-		text-align: center;
-	}
+	  #footer {
+      padding: 2em 0 2em 0;
+      background-color: #ffffff;
+      color: #333;
+      text-align: center;
+  }
 
-		#footer a {
-			border-bottom-color: rgba(255, 255, 255, 0.5);
-		}
+  #footer a {
+      border-bottom-color: rgba(0, 0, 0, 0.5);
+  }
 
-			#footer a:hover {
-				color: #ffffff;
-			}
+  #footer a:hover {
+      color: #4686a0;
+  }
 
-		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
-			color: #ffffff;
-		}
+  #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
+      color: #333;
+  }
 
-		#footer header p {
-			color: #ffffff;
-		}
+  #footer header p {
+      color: #333;
+  }
 
-		#footer header.major:after {
-			background: #ffffff;
-		}
+  #footer header.major:after {
+      background: #333;
+  }
 
-		#footer input[type="submit"],
-		#footer input[type="reset"],
-		#footer input[type="button"],
-		#footer button,
-		#footer .button {
-			box-shadow: inset 0 0 0 1px #ffffff;
-			color: #ffffff !important;
-		}
+  #footer input[type="submit"],
+  #footer input[type="reset"],
+  #footer input[type="button"],
+  #footer button,
+  #footer .button {
+      box-shadow: inset 0 0 0 1px #333;
+      color: #333 !important;
+  }
 
-			#footer input[type="submit"]:hover,
-			#footer input[type="reset"]:hover,
-			#footer input[type="button"]:hover,
-			#footer button:hover,
-			#footer .button:hover {
-				background-color: rgba(255, 255, 255, 0.125);
-			}
+  #footer input[type="submit"]:hover,
+  #footer input[type="reset"]:hover,
+  #footer input[type="button"]:hover,
+  #footer button:hover,
+  #footer .button:hover {
+      background-color: rgba(0, 0, 0, 0.05);
+  }
 
-			#footer input[type="submit"]:active,
-			#footer input[type="reset"]:active,
-			#footer input[type="button"]:active,
-			#footer button:active,
-			#footer .button:active {
-				background-color: rgba(255, 255, 255, 0.25);
-			}
+  #footer input[type="submit"]:active,
+  #footer input[type="reset"]:active,
+  #footer input[type="button"]:active,
+  #footer button:active,
+  #footer .button:active {
+      background-color: rgba(0, 0, 0, 0.1);
+  }
 
-			#footer input[type="submit"].special,
-			#footer input[type="reset"].special,
-			#footer input[type="button"].special,
-			#footer button.special,
-			#footer .button.special {
-				background-color: #ffffff;
-				box-shadow: inset 0 0 0 1px #ffffff !important;
-				color: #4686a0 !important;
-			}
+  #footer input[type="submit"].special,
+  #footer input[type="reset"].special,
+  #footer input[type="button"].special,
+  #footer button.special,
+  #footer .button.special {
+      background-color: #333;
+      box-shadow: inset 0 0 0 1px #333 !important;
+      color: #ffffff !important;
+  }
 
-				#footer input[type="submit"].special:hover,
-				#footer input[type="reset"].special:hover,
-				#footer input[type="button"].special:hover,
-				#footer button.special:hover,
-				#footer .button.special:hover {
-					background-color: rgba(255, 255, 255, 0.125) !important;
-					color: #ffffff !important;
-				}
+  #footer ul.major-icons li .icon {
+      border-color: #333;
+  }
 
-				#footer input[type="submit"].special:active,
-				#footer input[type="reset"].special:active,
-				#footer input[type="button"].special:active,
-				#footer button.special:active,
-				#footer .button.special:active {
-					background-color: rgba(255, 255, 255, 0.25) !important;
-				}
-
-		#footer ul.major-icons li .icon {
-			border-color: #ffffff;
-		}
-
-		#footer .icon.major {
-			color: #ffffff;
-		}
-
-		#footer .icons {
-			margin: 0;
-		}
-
-		#footer .copyright {
-			font-size: 0.8em;
-			list-style: none;
-			margin: 2em 0 0 0;
-			padding: 0;
-		}
-
-			#footer .copyright li {
-				border-left: solid 1px;
-				display: inline-block;
-				line-height: 1em;
-				margin-left: 1em;
-				padding: 0 0 0 1em;
-			}
-
-				#footer .copyright li:first-child {
-					border-left: 0;
-					margin-left: 0;
-					padding: 0;
-				}
+  #footer .icon.major {
+      color: #333;
+  }
 
 /* XLarge */
 
